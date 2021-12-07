@@ -8,6 +8,7 @@
 - 멤버: <적기>
 # 문제 풀이 링크 :link:
 - 12/6
-    - [125](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/125)
-    - [344](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/344)
-
+    - [125. Valid Palindrome](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/125)
+    - [344. Reverse String](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/344)
+    - [937. Reorder Data in Log Files](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/937)
+    - [819. Most Common Word](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/819)
