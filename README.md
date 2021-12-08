@@ -14,4 +14,5 @@
     - [937. Reorder Data in Log Files](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/937)
     - [819. Most Common Word](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/819)
 - 12/8
-    
+    - [49. Group anagram](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/49)
+    - [5. Longest palindromic substring](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/5)
