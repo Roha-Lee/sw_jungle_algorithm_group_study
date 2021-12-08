@@ -18,4 +18,13 @@
 - 한 칸 씩 확장하면서 비교 연산 수행 N//2
 - 시간 복잡도 N * N // 2 -> N^2
 ## DP 풀이
+- 2차원 DP table을 선언해 준다. 
+![DP table](https://user-images.githubusercontent.com/82917798/145229936-8bd90c69-f643-4c36-a0f3-56a5dd7b2893.jpeg)
+- 짝수개의 팰린드롬을 고려하기 위해 2개짜리 역시 초기화 해준다. 
+- DP[i][j] = 2 **(if s[i] == s[j] j-i == 1)**
+- DP[i][j] = DP[i+1][j-1] + 2 **(if s[i] == s[j])**
+- DP[i][j] = max(DP[i+1][j], DP[i][j-1]) **(if s[i] != s[j])**
+
 ## 시간 복잡도 
+- O(N(N+1)/2)
+- O(N^2)
