@@ -10,5 +10,8 @@
 - 12/6
     - [125. Valid Palindrome](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/125)
     - [344. Reverse String](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/344)
+- 12/7
     - [937. Reorder Data in Log Files](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/937)
     - [819. Most Common Word](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/819)
+- 12/8
+    
