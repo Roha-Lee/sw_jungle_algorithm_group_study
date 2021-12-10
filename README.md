@@ -16,6 +16,6 @@
 - 12/8
     - [49. Group anagram](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/49)
     - [5. Longest palindromic substring](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/5)
-12/10
+- 12/10
     - [1. Two sum](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/1)
     - [42. Trapping Rain water](https://github.com/Roha-Lee/sw_jungle_algorithm_group_study/tree/main/python_algorithm_interview_problems/42)
