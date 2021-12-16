@@ -32,10 +32,11 @@
 nums = [-1,0,1,2,-1,-4]
 result = []
 nums.sort()
+# nums = [-4,-1,-1,0,1,2]
 
-# 반복문을 왜 이렇게 짰지?
+# 반복문을 왜 이렇게 짰지? i 뒤에 left, right를 두고 반복을 돌리는 형태이므로 더 돌리면 left와 right에서 index에러발생
 for i in range(len(nums) - 2):  # i = 0 1 2 3
-    # 중복된 값 건너뛰기
+    # 중복된 값 건너뛰기 (불필요한 연산량을 줄이면서 중복된 페어를 삽입하는 것을 방지하는 코드)
     if i > 0 and nums[i] == nums[i-1]:
         continue
 
@@ -52,7 +53,7 @@ for i in range(len(nums) - 2):  # i = 0 1 2 3
             # sum = 0인 경우이므로 정답 및 스킵 처리
             result.append([nums[i], nums[left], nums[right]])
 
-            # 중복된 값이 있을 수 있으니 다음 값이 현재 값과 같으면 포인터 옮기기
+            # 중복된 값이 있을 수 있으니 다음 값이 현재 값과 같으면 포인터 옮기기 (불필요한 연산량을 줄이면서 중복된 페어를 삽입하는 것을 방지하는 코드)
             while left < right and nums[left] == nums[left + 1]:
                 left += 1
             while left < right and nums[right] == nums[right - 1]:

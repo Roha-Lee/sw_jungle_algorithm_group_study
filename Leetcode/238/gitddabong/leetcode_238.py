@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[int]
         """
 
-        # 조건에 맞지 않는 잘못된 풀이법 -----------------------
+        # 조건에 맞지 않는 잘못된 풀이법 -------------------
 
         # 리스트에 0이 하나만 섞여있는 경우와
         # 리스트에 0이 여러개 섞여있는 경우로 볼 수 있다
@@ -37,17 +37,27 @@ class Solution(object):
 
         #     return result
 
+        nums = [1,2,3,4]
+
         left = [1] * len(nums)
         right = [1] * len(nums)
                 
         for i in range(1, len(nums)):
             left[i] = left[i-1] * nums[i-1]
 
+        # 위 반복문이 끝나면 
+        # left = [ , 1, 1*2, 1*2*3] 의 형태로 변화
+
         for i in range(len(nums)-2, -1, -1):
             right[i] = right[i+1] * nums[i+1]
-            
+
+        # 위 반복문이 끝나면 
+        # right = [2*3*4, 3*4, 4, ] 의 형태로 변화
+        
+        # left와 right를 각 인덱스 별로 곱해주면 자기 자신을 제외한 모든 곱을 알 수 있다
         result = [0] * len(nums)
         for i in range(len(nums)):
             result[i] = left[i] * right[i]
+        
 
         return result
