@@ -34,3 +34,5 @@ class Solution(object):
                 return False
             
         return True
+
+        # 시간복잡도 while문 n + while 2번째 n/2 더해서 3/2n => 앞 상수 무시. 즉 시간복잡도 (n)
