@@ -28,4 +28,3 @@ class Solution(object):
             out[i] = out[i] * p
             p = p * nums[i]
         return out
-        
