@@ -302,5 +302,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+README_template.md
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,python,pycharm
