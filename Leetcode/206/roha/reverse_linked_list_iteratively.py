@@ -20,4 +20,4 @@ class Solution:
             curr.next = node
             curr = curr.next
         curr.next = None
-        return 
+        return head
