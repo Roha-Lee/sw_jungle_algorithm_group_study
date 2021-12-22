@@ -11,6 +11,8 @@
 - Dummy head를 만들어준다.(result)
 - carry를 1로 만들어주고 l1과 l2모두 값이 있는 경우에 덧셈을 해서(l1.val + l2.val + carry) 몫을 carry에 넣어주고 나머지를 값으로 하는 노드를 만들어서 result.next에 연결해준다. 
 - l1, l2중 하나가 끝난 경우 나머지에 대해서 carry와 더해서 마무리 해주면 된다. 
+# 시간복잡도 
+- O(max(len(l1), len(l2)))
 # 기타 
 - 정방향으로 저장되어 있으면?
 
