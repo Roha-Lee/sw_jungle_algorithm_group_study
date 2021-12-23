@@ -31,3 +31,5 @@ class Solution:
         # get key with max value
         return (max(word_count,key=word_count.get))
 ```
+
+# 시간복잡도
