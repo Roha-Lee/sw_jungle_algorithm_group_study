@@ -17,7 +17,7 @@
 - 저장해둔 curr.next뒤에 나머지 노드를 연결해 준다. 
 
 2. one pass풀이
-- - dummy_head를 만들고 next에 head를 넣어준다. 
+- dummy_head를 만들고 next에 head를 넣어준다. 
 - curr를 dummy_head에 둔다. 
 - curr를 left전까지 이동한 후 curr와 curr.next를 각각 저장한다(start, end). 
 - right - left번 end노드를 바로 오른쪽 노드와 자리를 바꿔주면 해결할 수 있다. 
