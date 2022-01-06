@@ -10,7 +10,7 @@ class Solution(object):
         :rtype: ListNode
         """
         
-        # 가장 끝 노드를 서치
+        # 홀수 노드 중 가장 끝 노드를 서치
         curr = head
         length = 1
         end = None          # 맨 뒤의 노드(노드 추가용)
