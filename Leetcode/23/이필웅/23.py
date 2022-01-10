@@ -10,8 +10,8 @@ class ListNode:
         self.val = val
         self.next = next
 
-class Solution:quit
-    def mergeKLists(self, lists: List[Optqional[ListNode]]) -> Optional[ListNode]:
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         root = result = ListNode(None)
         heap = []
         
