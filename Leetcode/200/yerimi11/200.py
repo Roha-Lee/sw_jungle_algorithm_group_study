@@ -19,4 +19,4 @@ class Solution(object):
                 if grid[i][j] == '1':
                     count += 1
                     dfs(grid, i, j)
-        return count
+        return count 
